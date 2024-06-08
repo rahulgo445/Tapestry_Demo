@@ -14,4 +14,6 @@ tiktoken
 unstructured[local-inference]
 layoutparser[layoutmodels,tesseract]
 
-To run the demo use the following commandsL
+To run the demo use the following commands:
+1>source ./venv/bin/activate
+2>streamlit run chat_with_documents.py --server.enableCORS false --server.enableXsrfProtection false
